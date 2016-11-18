@@ -1,6 +1,6 @@
 # Run the application
 
-- set environment with pip install -r requirements.txt
+- set environment with `pip install -r requirements.txt`
 - python run.py
 
 
