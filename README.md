@@ -29,7 +29,9 @@ curl -H "Content-type: application/json" -X GET http://127.0.0.1:5000/person/582
 - Get Person by first_name or last_name or email
 
 curl -H "Content-type: application/json" -X GET "http://127.0.0.1:5000/persons?first_name=nidhin&last_name=we"
+
 curl -H "Content-type: application/json" -X GET "http://127.0.0.1:5000/persons?first_name=nidhin"
+
 curl -H "Content-type: application/json" -X GET "http://127.0.0.1:5000/persons?email=@"
 
 
