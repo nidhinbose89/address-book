@@ -76,7 +76,7 @@ class Group(db.Document):
 
 
 class AddressBook(db.Document):
-
+    """Address model."""
 
     person_list = db.ListField(
         db.DocumentField(Person), required=False, default=[])
