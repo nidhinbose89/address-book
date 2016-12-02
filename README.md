@@ -34,10 +34,3 @@ curl -H "Content-type: application/json" -X GET "http://127.0.0.1:5000/persons?f
 
 curl -H "Content-type: application/json" -X GET "http://127.0.0.1:5000/persons?email=@"
 
-
-
-* Find person by email address (can supply any substring, ie. "comp" should
-  work assuming "alexander@company.com" is an email address in the address
-  book) - discuss how you would implement this without coding the solution.
-
-  >> With mongoDB it works out of the box, can add secondary index if required.
